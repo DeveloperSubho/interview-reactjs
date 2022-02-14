@@ -933,12 +933,18 @@
 
     A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
 
+    A Controlled Component is one that takes its current value through props and notifies changes through callbacks like onChange. A parent component "controls" it by handling the callback and managing its own state and passing the new values as props to the controlled component. You could also call this a "dumb component".
+    
     For example, to write all the names in uppercase letters, we use handleChange as below,
 
     ```javascript
     handleChange(event) {
       this.setState({value: event.target.value.toUpperCase()})
     }
+    ```
+    ```javascript
+    // Controlled:
+    <input type="text" value={value} onChange={handleChange} />
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -975,7 +981,11 @@
       }
     }
     ```
-
+    ```javascript
+    // Uncontrolled:
+    <input type="text" defaultValue="foo" ref={inputRef} />
+    // Use `inputRef.current.value` to read the current value of <input>
+    ```
     In most cases, it's recommend to use controlled components to implement forms. In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
 
     **[⬆ Back to Top](#table-of-contents)**

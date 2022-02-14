@@ -1,17 +1,17 @@
-1. What are the advantages of using React?
-   MVC is generally abbreviated as Model View Controller.
-   • Use of Virtual DOM to improve efficiency
-   React uses virtual DOM to render the view. As the name suggests, virtual DOM is a virtual representation of the real DOM. Each time the data changes in a react app, a new virtual DOM gets created. Creating a virtual DOM is much faster than rendering the UI inside the browser. Therefore, with the use of virtual DOM, the efficiency of the app improves.
-   • Gentle learning curve
+1. What are the advantages of using React?  
+MVC is generally abbreviated as Model View Controller.  
+• Use of Virtual DOM to improve efficiency
+   React uses virtual DOM to render the view. As the name suggests, virtual DOM is a virtual representation of the real DOM. Each time the data changes in a react app, a new virtual DOM gets created. Creating a virtual DOM is much faster than rendering the UI inside the browser. Therefore, with the use of virtual DOM, the efficiency of the app improves.  
+• Gentle learning curve  
    React has a gentle learning curve when compared to frameworks like Angular. Anyone with little knowledge of javascript can start building web applications using React.
-   • SEO friendly
-   React allows developers to develop engaging user interfaces that can be easily navigated in various search engines. It also allows server-side rendering, which boosts the SEO of an app.
-   • Reusable components
-   React uses component-based architecture for developing applications. Components are independent and reusable bits of code. These components can be shared across various applications having similar functionality. The re-use of components increases the pace of development.
-   • Huge ecosystem of libraries to choose from
+• SEO friendly  
+   React allows developers to develop engaging user interfaces that can be easily navigated in various search engines. It also allows server-side rendering, which boosts the SEO of an app.  
+• Reusable components  
+  React uses component-based architecture for developing applications. Components are independent and reusable bits of code. These components can be shared across various applications having similar functionality. The re-use of components increases the pace of development.  
+• Huge ecosystem of libraries to choose from  
    React provides you the freedom to choose the tools, libraries, and architecture for developing an application based on your requirement.
 
-2. What is JSX?
+2. What is JSX?  
    JSX stands for JavaScript XML.
    It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
    As stated in the official docs of React, JSX provides syntactic sugar for React.createElement( ) function.
@@ -63,6 +63,7 @@ super(props);
 
 render(){
 return(
+
 <div className="main-container">
 <h2>Title of the card</h2>
 </div>
@@ -92,6 +93,7 @@ super(props);
 
 render(){
 return(
+
 <div className="main">
 <h2>{this.props.name}</h2>
 <h4>{this.props.rollNumber}</h4>
@@ -149,7 +151,6 @@ this.state = {studentsCount : 0};
             )
           }
          }
-
 
 In the code above, we see we are using this.state to add the variable studentsCount and setting the value to “0”.
 For reading the state, we are using this.state.studentsCount.
@@ -307,6 +308,7 @@ this.setState({ messageDisplayed: true });
 render() {
 console.log("Parent is getting rendered");
 return (
+
 <div className="App">
 <Message />
 </div>
@@ -343,6 +345,7 @@ return false;
 render() {
 console.log("Message is getting rendered");
 return (
+
 <div>
 <p>{this.state.message}</p>
 </div>
@@ -392,6 +395,7 @@ return { color: "Red" };
 }
 render() {
 return (
+
 <div>
 <button onClick={() => this.changeColor()}>Change Color</button>
 <p>{this.state.color}</p>
@@ -473,6 +477,7 @@ fontSize: "48px"
 
 render() {
 return (
+
 <div>
 <h3 style={this.headingStyles}>This is a heading</h3>
 <p style={this.paragraphStyles}>This is a paragraph</p>
@@ -487,6 +492,7 @@ import './RandomComponent.css';
 class RandomComponent extends React.Component {
 render() {
 return (
+
 <div>
 <h3 className="heading">This is a heading</h3>
 <p className="paragraph">This is a paragraph</p>
@@ -508,6 +514,7 @@ import styles from './styles.module.css';
 class RandomComponent extends React.Component {
 render() {
 return (
+
 <div>
 <h3 className="heading">This is a heading</h3>
 <p className={styles.paragraph} >This is a paragraph</p>
@@ -653,6 +660,7 @@ articles: GlobalDataSource.getArticles(),
 }
 render() {
 return (
+
 <div>
 {this.state.articles.map((article) => (
 <ArticleData article={article} key={article.id} />
@@ -769,6 +777,7 @@ if(this.state.counter === 2){
 throw new Error('Crashed');
 }
 return(
+
 <div>
 <button onClick={this.incrementCounter}>Increment Value</button>
 <p>Value of counter: {this.state.counterValue}</p>
