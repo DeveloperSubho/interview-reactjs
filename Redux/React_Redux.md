@@ -1,0 +1,9 @@
+https://redux.js.org/introduction/getting-started
+https://www.freecodecamp.org/news/how-to-use-redux-in-reactjs-with-real-life-examples-687ab4441b85/
+https://www.javatpoint.com/react-redux
+https://medium.com/swlh/how-to-use-redux-with-react-a-step-by-step-guide-1cca75c6397a
+https://www.interviewbit.com/redux-interview-questions/
+https://www.fullstack.cafe/blog/top-26-react-redux-interview-questions-to-brush-up-2018
+https://www.bestinterviewquestion.com/redux-interview-questions
+https://www.educba.com/redux-interview-questions/
+https://dev.to/suprabhasupi/react-redux-interview-questions-with-answers-13ba

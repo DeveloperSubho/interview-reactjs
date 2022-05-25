@@ -1,7 +1,5 @@
 # React Interview Questions & Answers
-
 > Welcome to the future.
-
 ---
 
 <div align="center">
@@ -9,12 +7,10 @@
 </div>
 
 ---
-
 **Note:** This repository is specific to ReactJS.
 
 ### Table of Contents
-
-| No. | Questions                                                                                                                                                                                                                        |
+| No. | Questions|
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     | **Core React**                                                                                                                                                                                                                   |
 | 1   | [What is React?](#what-is-react)                                                                                                                                                                                                 |
