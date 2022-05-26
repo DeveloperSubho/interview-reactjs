@@ -1,15 +1,5 @@
 ## React Testing
 
-| 146 | [What is Shallow Renderer in React testing?](#what-is-shallow-renderer-in-react-testing)                                                                                                                                         |
-| 147 | [What is TestRenderer package in React?](#what-is-testrenderer-package-in-react)                                                                                                                                                 |
-| 148 | [What is the purpose of ReactTestUtils package?](#what-is-the-purpose-of-reacttestutils-package)                                                                                                                                 |
-| 149 | [What is Jest?](#what-is-jest)                                                                                                                                                                                                   |
-| 150 | [What are the advantages of Jest over Jasmine?](#what-are-the-advantages-of-jest-over-jasmine)                                                                                                                                   |
-| 151 | [Give a simple example of Jest test case](#give-a-simple-example-of-jest-test-case)                                                                                                                                              |
-
-
-**[⬆ Back to Top](#react-testing)**
-
 146. ### What is Shallow Renderer in React testing?
 
      _Shallow rendering_ is useful for writing unit test cases in React. It lets you render a component _one level deep_ and assert facts about what its render method returns, without worrying about the behavior of child components, which are not instantiated or rendered.

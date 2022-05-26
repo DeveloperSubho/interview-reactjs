@@ -1,15 +1,5 @@
 ## React Internationalization
 
-| 140 | [What is React-Intl?](#what-is-react-intl)                                                                                                                                                                                       |
-| 141 | [What are the main features of React Intl?](#what-are-the-main-features-of-react-intl)                                                                                                                                           |
-| 142 | [What are the two ways of formatting in React Intl?](#what-are-the-two-ways-of-formatting-in-react-intl)                                                                                                                         |
-| 143 | [How to use FormattedMessage as placeholder using React Intl?](#how-to-use-formattedmessage-as-placeholder-using-react-intl)                                                                                                     |
-| 144 | [How to access current locale with React Intl](#how-to-access-current-locale-with-react-intl)                                                                                                                                    |
-| 145 | [How to format date using React Intl?](#how-to-format-date-using-react-intl)                                                                                                                                                     |
-
-
-**[⬆ Back to Top](#react-internationalization)**
-
 140. ### What is React Intl?
 
      The _React Intl_ library makes internalization in React straightforward, with off-the-shelf components and an API that can handle everything from formatting strings, dates, and numbers, to pluralization. React Intl is part of _FormatJS_ which provides bindings to React via its components and API.

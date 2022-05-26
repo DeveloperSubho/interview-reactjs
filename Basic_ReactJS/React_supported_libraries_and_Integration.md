@@ -1,24 +1,5 @@
 ## React supported libraries & Integration
 
-| 192 | [What is reselect and how it works?](#what-is-reselect-and-how-it-works)                                                                                                                                                         |
-| 193 | [What is Flow?](#what-is-flow)                                                                                                                                                                                                   |
-| 194 | [What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes)                                                                                                                         |
-| 195 | [How to use font-awesome icons in React?](#how-to-use-font-awesome-icons-in-react)                                                                                                                                               |
-| 196 | [What is React Dev Tools?](#what-is-react-dev-tools)                                                                                                                                                                             |
-| 197 | [Why is DevTools not loading in Chrome for local files?](#why-is-devtools-not-loading-in-chrome-for-local-files)                                                                                                                 |
-| 198 | [How to use Polymer in React?](#how-to-use-polymer-in-react)                                                                                                                                                                     |
-| 199 | [What are the advantages of React over Vue.js?](#what-are-the-advantages-of-react-over-vuejs)                                                                                                                                    |
-| 200 | [What is the difference between React and Angular?](#what-is-the-difference-between-react-and-angular)                                                                                                                           |
-| 201 | [Why React tab is not showing up in DevTools?](#why-react-tab-is-not-showing-up-in-devtools)                                                                                                                                     |
-| 202 | [What are styled components?](#what-are-styled-components)                                                                                                                                                                       |
-| 203 | [Give an example of Styled Components?](#give-an-example-of-styled-components)                                                                                                                                                   |
-| 204 | [What is Relay?](#what-is-relay)                                                                                                                                                                                                 |
-| 205 | [How to use TypeScript in create-react-app application?](#how-to-use-typescript-in-create-react-app-application)                                                                                                                 |
-
-
-
-**[⬆ Back to Top](#react-supported-libraries-&-integration)**
-
 192. ### What is reselect and how it works?
 
      _Reselect_ is a **selector library** (for Redux) which uses _memoization_ concept. It was originally written to compute derived data from Redux-like applications state, but it can't be tied to any architecture or library.
