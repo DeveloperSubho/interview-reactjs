@@ -398,3 +398,5 @@ https://www.fullstack.cafe/blog/react-hooks-interview-questions
 https://www.codingninjas.com/codestudio/library/top-react-hooks-interview-questions
 https://www.interviewbit.com/react-interview-questions/
 https://backbencher.dev/articles/react-hooks-interview-questions
+https://backbencher.dev/react-hooks-interview-questions
+https://www.freecodecamp.org/news/react-interview-questions-to-know/
