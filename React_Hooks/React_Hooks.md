@@ -1,3 +1,5 @@
+### REACT HOOKS
+
 Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Hooks are backwards-compatible.
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes.
 
@@ -218,9 +220,9 @@ function Todos() {
   // ...
 ```
 
-***Higher Order Component***
+**_Higher Order Component_**
 A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
-Higher-order components (HOCs) in React were inspired by higher-order functions in JavaScript. 
+Higher-order components (HOCs) in React were inspired by higher-order functions in JavaScript.
 Concretely, a higher-order component is a function that takes a component and returns a new component.
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
@@ -234,11 +236,7 @@ Easy to handle
 Get rid of copying the same logic in every component
 Makes code more readable
 
-
-
-
 _References:_
 https://reactjs.org/docs/hooks-intro.html
 https://reactjs.org/docs/higher-order-components.html
 https://www.smashingmagazine.com/2020/06/higher-order-components-react/
-
