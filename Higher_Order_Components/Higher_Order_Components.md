@@ -1,4 +1,5 @@
-Higher-Order Components
+## Higher-Order Components
+
 A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
 
 Concretely, a higher-order component is a function that takes a component and returns a new component.
@@ -51,7 +52,9 @@ class CommentList extends React.Component {
   }
 }
 ```
+
 Later, you write a component for subscribing to a single blog post, which follows a similar pattern:
+
 ```
 class BlogPost extends React.Component {
   constructor(props) {
@@ -81,6 +84,7 @@ class BlogPost extends React.Component {
   }
 }
 ```
+
 CommentList and BlogPost aren’t identical — they call different methods on DataSource, and they render different output. But much of their implementation is the same:
 
 On mount, add a change listener to DataSource.
@@ -101,20 +105,21 @@ const BlogPostWithSubscription = withSubscription(
   (DataSource, props) => DataSource.getBlogPost(props.id)
 );
 ```
+
 https://flexiple.com/react/introduction-to-higher-order-components-in-react-by-example/
 https://www.javatpoint.com/react-higher-order-components
-```
-//Function Creation  
-function add (a, b) {  
-  return a + b  
-}  
-function higherOrder(a, addReference) {  
-  return addReference(a, 20)  
-}  
-//Function call  
-higherOrder(30, add) // 50  
-```
 
+```
+//Function Creation
+function add (a, b) {
+  return a + b
+}
+function higherOrder(a, addReference) {
+  return addReference(a, 20)
+}
+//Function call
+higherOrder(30, add) // 50
+```
 
 _Resource:_
 https://reactjs.org/docs/higher-order-components.html
